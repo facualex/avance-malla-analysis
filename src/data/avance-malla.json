@@ -1,0 +1,434 @@
+{
+    "career": "INGENIERIA CIVIL EN COMPUTACION MENC. INFORMATICA",
+    "careerCode": "21041 / 5",
+    "student": "FACUNDO ALEXANDRE BUCHELLI",
+    "rut": "22.167.744-7",
+    "status": "Regular",
+    "through": "VIA P.S.U",
+    "start": "2015 / 1",
+    "end": null,
+    "courses": [
+        "PPSB0002",
+        "PPSB0001",
+        "QUIC8010",
+        "MATC8010",
+        "INFB8010",
+        "PPSB0004",
+        "MATC8020",
+        "MATC8021",
+        "INDC8020",
+        "INFB8021",
+        "MATC8030",
+        "INFB8030",
+        "MATC8031",
+        "FISC8030",
+        "EFDBXXXX",
+        "FISC8040",
+        "INFB8040",
+        "MATC8041",
+        "MATB8041",
+        "INDB8040",
+        "ESTC8050",
+        "FISC8050",
+        "ELEC8040",
+        "INFB8050",
+        "MATC8051",
+        "INDC8060",
+        "INFB8062",
+        "INFB8061",
+        "INFB8060",
+        "ESTB8060",
+        "HUMC8020",
+        "INDB8070",
+        "INDB8072",
+        "INFB8072",
+        "HUMC8030",
+        "INFB8070",
+        "INFB8071",
+        "PPSB0005",
+        "INFB8081",
+        "INFB8083",
+        "INFB8082",
+        "INFB8080",
+        "INDB8081",
+        "INFB8094",
+        "INFB8093",
+        "INFB8090",
+        "INFB8091",
+        "INFB8092",
+        "PPSB0006",
+        "INFB8104",
+        "INFB8103",
+        "INFB8102",
+        "INFB8101",
+        "INFB8100",
+        "EFEB8X2X",
+        "INFB8110",
+        "EFEB8XXX",
+        "EFEB8XX2",
+        "INFT8110",
+        "INFT8120"
+    ],
+    "coursesByCode": {
+        "PPSB0002": {
+            "level": "1",
+            "status": "APROBADO",
+            "name": "TALLER PARA EL DESARROLLO DEL PENSAMIENTO LOGICO DEDUCTIVO",
+            "grade": 4.9
+        },
+        "PPSB0001": {
+            "level": "1",
+            "status": "APROBADO",
+            "name": "TALLER DE COMUNICACION EFECTIVA",
+            "grade": 5.7
+        },
+        "QUIC8010": {
+            "level": "1",
+            "status": "APROBADO",
+            "name": "QUIMICA GENERAL",
+            "grade": 4.5
+        },
+        "MATC8010": {
+            "level": "1",
+            "status": "APROBADO",
+            "name": "TALLER DE MATEMATICA",
+            "grade": 4.8
+        },
+        "INFB8010": {
+            "level": "1",
+            "status": "APROBADO",
+            "name": "INTRODUCCION A LA INGENIERIA EN COMPUTACION",
+            "grade": 5
+        },
+        "PPSB0004": {
+            "level": "2",
+            "status": "APROBADO",
+            "name": "TALLER DE CIENCIA Y TECNOLOGIA",
+            "grade": 4.9
+        },
+        "MATC8020": {
+            "level": "2",
+            "status": "APROBADO",
+            "name": "ALGEBRA CLASICA",
+            "grade": 4.5
+        },
+        "MATC8021": {
+            "level": "2",
+            "status": "APROBADO",
+            "name": "CALCULO DIFERENCIAL",
+            "grade": 5
+        },
+        "INDC8020": {
+            "level": "2",
+            "status": "APROBADO",
+            "name": "DIBUJO DE INGENIERIA",
+            "grade": 5.7
+        },
+        "INFB8021": {
+            "level": "2",
+            "status": "APROBADO",
+            "name": "ALGORITMOS Y PROGRAMACION",
+            "grade": 5.5
+        },
+        "MATC8030": {
+            "level": "3",
+            "status": "APROBADO",
+            "name": "ALGEBRA SUPERIOR",
+            "grade": 4.5
+        },
+        "INFB8030": {
+            "level": "3",
+            "status": "APROBADO",
+            "name": "ESTRUCTURAS DE DATOS",
+            "grade": 5.3
+        },
+        "MATC8031": {
+            "level": "3",
+            "status": "APROBADO",
+            "name": "CALCULO INTEGRAL",
+            "grade": 5.2
+        },
+        "FISC8030": {
+            "level": "3",
+            "status": "APROBADO",
+            "name": "MECANICA CLASICA",
+            "grade": 4.6
+        },
+        "EFDBXXXX": {
+            "level": "3",
+            "status": "APROBADO",
+            "name": "ELECTIVO DE FORMACION DEPORTIVA ELECTIVO",
+            "grade": 6
+        },
+        "FISC8040": {
+            "level": "4",
+            "status": "APROBADO",
+            "name": "ELECTROMAGNETISMO",
+            "grade": 4.7
+        },
+        "INFB8040": {
+            "level": "4",
+            "status": "APROBADO",
+            "name": "LENGUAJES DE PROGRAMACION",
+            "grade": 4.3
+        },
+        "MATC8041": {
+            "level": "4",
+            "status": "APROBADO",
+            "name": "CALCULO AVANZADO",
+            "grade": 4.3
+        },
+        "MATB8041": {
+            "level": "4",
+            "status": "APROBADO",
+            "name": "ECUACIONES DIFERENCIALES",
+            "grade": 4.3
+        },
+        "INDB8040": {
+            "level": "4",
+            "status": "APROBADO",
+            "name": "SISTEMAS DE ADMINISTRACION",
+            "grade": 5.4
+        },
+        "ESTC8050": {
+            "level": "5",
+            "status": "APROBADO",
+            "name": "ESTADISTICA Y PROBABILIDADES",
+            "grade": 4.7
+        },
+        "FISC8050": {
+            "level": "5",
+            "status": "APROBADO",
+            "name": "OPTICA Y ONDAS",
+            "grade": 5.3
+        },
+        "ELEC8040": {
+            "level": "5",
+            "status": "APROBADO",
+            "name": "CIRCUITOS ELECTRICOS",
+            "grade": 4.1
+        },
+        "INFB8050": {
+            "level": "5",
+            "status": "APROBADO",
+            "name": "BASES DE DATOS",
+            "grade": 5.7
+        },
+        "MATC8051": {
+            "level": "5",
+            "status": "APROBADO",
+            "name": "METODOS NUMERICOS",
+            "grade": 4.8
+        },
+        "INDC8060": {
+            "level": "6",
+            "status": "APROBADO",
+            "name": "SISTEMAS ECONOMICOS",
+            "grade": 4.6
+        },
+        "INFB8062": {
+            "level": "6",
+            "status": "APROBADO",
+            "name": "SISTEMAS DE INFORMACION",
+            "grade": 6.2
+        },
+        "INFB8061": {
+            "level": "6",
+            "status": "APROBADO",
+            "name": "GRAFOS Y LENGUAJES FORMALES",
+            "grade": 4.1
+        },
+        "INFB8060": {
+            "level": "6",
+            "status": "APROBADO",
+            "name": "TECNOLOGIA DE COMPUTADORES",
+            "grade": 4.5
+        },
+        "ESTB8060": {
+            "level": "6",
+            "status": "REPROBADO",
+            "name": "INFERENCIA Y PROCESOS ESTOCASTICOS",
+            "grade": 2.7
+        },
+        "HUMC8020": {
+            "level": "6",
+            "status": "APROBADO",
+            "name": "INGLES I",
+            "grade": 6.4
+        },
+        "INDB8070": {
+            "level": "7",
+            "status": "REPROBADO",
+            "name": "INVESTIGACION DE OPERACIONES",
+            "grade": 1
+        },
+        "INDB8072": {
+            "level": "7",
+            "status": "APROBADO",
+            "name": "TEORIA DE SISTEMAS",
+            "grade": 5.4
+        },
+        "INFB8072": {
+            "level": "7",
+            "status": "APROBADO",
+            "name": "INGENIERIA DE SOFTWARE",
+            "grade": 5.6
+        },
+        "HUMC8030": {
+            "level": "7",
+            "status": "APROBADO",
+            "name": "INGLES II",
+            "grade": 5
+        },
+        "INFB8070": {
+            "level": "7",
+            "status": "APROBADO",
+            "name": "ARQUITECTURA DE COMPUTADORES",
+            "grade": 4.5
+        },
+        "INFB8071": {
+            "level": "7",
+            "status": "APROBADO",
+            "name": "ANALISIS DE ALGORITMOS",
+            "grade": 4
+        },
+        "PPSB0005": {
+            "level": "8",
+            "status": "APROBADO",
+            "name": "TALLER DE PRINCIPIOS DE SUSTENTABILIDAD",
+            "grade": 4.4
+        },
+        "INFB8081": {
+            "level": "8",
+            "status": "APROBADO",
+            "name": "SISTEMAS OPERATIVOS",
+            "grade": 4.7
+        },
+        "INFB8083": {
+            "level": "8",
+            "status": "REPROBADO",
+            "name": "EVALUACION DE PROYECTOS INFORMATICOS",
+            "grade": 1
+        },
+        "INFB8082": {
+            "level": "8",
+            "status": "APROBADO",
+            "name": "TALLER DE SISTEMAS DE INFORMACION",
+            "grade": 6.2
+        },
+        "INFB8080": {
+            "level": "8",
+            "status": "PENDIENTE",
+            "name": "REDES Y COMUNICACION DE DATOS",
+            "grade": null
+        },
+        "INDB8081": {
+            "level": "8",
+            "status": "PENDIENTE",
+            "name": "INGENIERIA AMBIENTAL",
+            "grade": null
+        },
+        "INFB8094": {
+            "level": "9",
+            "status": "PENDIENTE",
+            "name": "GESTION DE PROCESOS DE NEGOCIOS",
+            "grade": null
+        },
+        "INFB8093": {
+            "level": "9",
+            "status": "PENDIENTE",
+            "name": "SIMULACION DE SISTEMAS",
+            "grade": null
+        },
+        "INFB8090": {
+            "level": "9",
+            "status": "PENDIENTE",
+            "name": "COMPUTACION PARALELA Y DISTRIBUIDA",
+            "grade": null
+        },
+        "INFB8091": {
+            "level": "9",
+            "status": "PENDIENTE",
+            "name": "DESEMPEÑO DE SISTEMAS",
+            "grade": null
+        },
+        "INFB8092": {
+            "level": "9",
+            "status": "PENDIENTE",
+            "name": "OPTIMIZACION DE SISTEMAS",
+            "grade": null
+        },
+        "PPSB0006": {
+            "level": "10",
+            "status": "PENDIENTE",
+            "name": "TALLER DE INNOVACION Y EMPRENDIMIENTO",
+            "grade": null
+        },
+        "INFB8104": {
+            "level": "10",
+            "status": "PENDIENTE",
+            "name": "MINERIA DE DATOS",
+            "grade": null
+        },
+        "INFB8103": {
+            "level": "10",
+            "status": "PENDIENTE",
+            "name": "GESTION DE PROYECTOS INFORMATICOS",
+            "grade": null
+        },
+        "INFB8102": {
+            "level": "10",
+            "status": "PENDIENTE",
+            "name": "AUDITORIA DE SISTEMAS Y SEGURIDAD INFORMATICA",
+            "grade": null
+        },
+        "INFB8101": {
+            "level": "10",
+            "status": "PENDIENTE",
+            "name": "INTELIGENCIA DE NEGOCIOS",
+            "grade": null
+        },
+        "INFB8100": {
+            "level": "10",
+            "status": "PENDIENTE",
+            "name": "GESTION DE RECURSOS INFORMATICOS",
+            "grade": null
+        },
+        "EFEB8X2X": {
+            "level": "11",
+            "status": "PENDIENTE",
+            "name": "ELECTIVO DE FORMACION ESPECIALIZADA 3 ELECTIVO",
+            "grade": null
+        },
+        "INFB8110": {
+            "level": "11",
+            "status": "PENDIENTE",
+            "name": "PRACTICA PROFESIONAL",
+            "grade": null
+        },
+        "EFEB8XXX": {
+            "level": "11",
+            "status": "PENDIENTE",
+            "name": "ELECTIVO DE FORMACION ESPECIALIZADA I ELECTIVO",
+            "grade": null
+        },
+        "EFEB8XX2": {
+            "level": "11",
+            "status": "PENDIENTE",
+            "name": "ELECTIVO DE FORMACION ESPECIALIZADA 2 ELECTIVO",
+            "grade": null
+        },
+        "INFT8110": {
+            "level": "11",
+            "status": "PENDIENTE",
+            "name": "TRABAJO DE TITULO I",
+            "grade": null
+        },
+        "INFT8120": {
+            "level": "12",
+            "status": "PENDIENTE",
+            "name": "TRABAJO DE TITULO II",
+            "grade": null
+        }
+    }
+}
