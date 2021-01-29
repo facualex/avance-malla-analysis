@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import "./index.css"
+import "./index.scss"
 import cogoToast from 'cogo-toast'
 
 function CourseCard({ title = "No name", grade}) {

@@ -1,79 +1,60 @@
-import { useState, useEffect } from 'react'
-import './App.css';
-import { countCourses } from './data/functions'
-import API from './api'
+import { useState } from  'react'
+import { CourseCards, GraphicsAndData } from './screens'
+import classnames from 'classnames'
+import './App.scss';
 
-import CourseCard from "./components/CourseCard"
-import cogoToast from 'cogo-toast';
-
-function FileUploader({ handleUpload, fileChangeHandler, file }) {
-  const data = new FormData()
-  data.append('file', file)
-
-  return (
-      <div className="uploader">
-        <input type="file" accept=".txt" name="unparsedFile" onChange={fileChangeHandler} />
-        <button className="uploader__submit-btn" onClick={() => handleUpload(data)}>Enviar</button>
-      </div>
-  )
+const screens = {
+  COURSE_CARDS: 'COURSE_CARDS',
+  GRAPHICS_AND_DATA: 'GRAPHICS_AND_DATA',
+}
+const initialState = {
+  selectedScreen: screens.COURSE_CARDS, 
 }
 
-const initialState = {
-  courses: [],
-  coursesByCode: {},
-  file: null,
+
+function loadApp(selectedScreen) {
+    switch (selectedScreen) {
+      case screens.COURSE_CARDS:
+        return <CourseCards />
+      case screens.GRAPHICS_AND_DATA:
+        return <GraphicsAndData />
+      default:
+          return null
+    }
 }
 
 function App() {
   const [state, setState] = useState(initialState)
-  const { courses, coursesByCode, file } = state
+  const { selectedScreen } = state
 
-  async function handleSendFile(data) {
-    try {
-      await API.uploadFile(data)
-      cogoToast.success('Archivo enviado correctamente!')
-      return window.location.reload()
-    } catch(error) {
-      console.log(error)
-      return cogoToast.error('Ocurrio un error el intentar enviar archivo')
-    }
+  function handleOptionClick(event) {
+    setState(prevState => ({ ...prevState, selectedScreen: event.target.name }))
   }
-
-  function fileChangeHandler(event) {
-    setState(prevState => ({ ...prevState, file: event.target.files[0] }))    
-  }
-
-  useEffect(() => {
-    async function getCourses() {
-      try {
-        const { data: { data: { courses, coursesByCode }} } = await API.getCourses()
-        setState(prevState => ({ ...prevState, courses, coursesByCode }))
-      } catch(error) {
-        console.log(error)
-        return cogoToast.error('Error al traer cursos')
-      }
-    }
- 
-    getCourses()
-  }, [])
 
   return (
     <div className="App">
-      <div className="summary">
-        <CourseCard title="Total Cursos" grade={countCourses({ courses, coursesByCode }).total} />
-        <CourseCard title="Aprobados" grade={countCourses({ courses, coursesByCode, type: "APPROBED" }).total} />
-        <CourseCard title="Restantes" grade={countCourses({ courses, coursesByCode, type: "REMAINING" }).total} />
-        <CourseCard title="Avance" grade={`${countCourses({ courses, coursesByCode, type: "PERCENTAGE" })}%`} />
+      <div className="button-group">
+        <button name={screens.COURSE_CARDS}
+          className={classnames({
+            "button-group__btn": true,
+            "button-group__btn-active": selectedScreen === screens.COURSE_CARDS,
+          })}
+          onClick={handleOptionClick}
+        >
+          Cursos
+       </button>
+        <button
+          name={screens.GRAPHICS_AND_DATA}
+          className={classnames({
+            "button-group__btn": true,
+            "button-group__btn-active": selectedScreen === screens.GRAPHICS_AND_DATA,
+          })}
+          onClick={handleOptionClick} 
+        >
+          Graficos
+       </button>
       </div>
-      <FileUploader handleUpload={handleSendFile} fileChangeHandler={fileChangeHandler} file={file} />
-      <div className="courses_grid">
-        {
-          courses.length ? courses.map(code => {
-          const { name, grade } = coursesByCode[code]
-          return <CourseCard key={name} grade={grade} title={name} />
-         }) : null
-        }
-      </div>
+      {loadApp(selectedScreen)}
     </div>
   );
 }
