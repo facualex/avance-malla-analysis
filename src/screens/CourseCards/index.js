@@ -64,13 +64,13 @@ function CourseCards() {
 
   return (
       <>
-        {isLoading ? null : <FileUploader handleUpload={handleSendFile} fileChangeHandler={fileChangeHandler} file={file} />}
         <div className="summary">
             <CourseCard title="Total Cursos" grade={countCourses({ courses, coursesByCode }).total} />
             <CourseCard title="Aprobados" grade={countCourses({ courses, coursesByCode, type: "APPROBED" }).total} />
             <CourseCard title="Restantes" grade={countCourses({ courses, coursesByCode, type: "REMAINING" }).total} />
             <CourseCard title="Avance" grade={`${countCourses({ courses, coursesByCode, type: "PERCENTAGE" })}%`} />
         </div>
+        {isLoading ? null : <FileUploader handleUpload={handleSendFile} fileChangeHandler={fileChangeHandler} file={file} />}
         <div className="courses_grid">
             {
                 courses.length && !isLoading ? courses.map(code => {
